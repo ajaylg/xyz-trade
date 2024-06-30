@@ -1,0 +1,11 @@
+{
+    "name": "xyz_trade",
+    "version": "1.0.0",
+    "description": "Sample Trade",
+    "main": "server.js",
+    "author": "Ajay",
+    "license": "ISC",
+    "dependencies": {
+        "ws": "^8.17.1"
+    }
+}
