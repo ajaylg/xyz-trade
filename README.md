@@ -5,7 +5,7 @@ Node Server Setup
 1. Install Node.js version - v21.7.1
 2. Run this command "npm i" to install node dependencies
 3. Run this command "node server/server.js" in terminal to start node server
-4. You will get get "Server started" message in terminal
+4. You will get "Server started" message in terminal
 
 Flutter version Details
 
@@ -18,3 +18,4 @@ Flutter version Details
 
 1. run "flutter pub get" command to get dependencies
 2. run "flutter run" command to run this flutter application
+
