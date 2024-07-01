@@ -242,7 +242,9 @@ class _WatchlistBuilderState extends State<WatchlistBuilder> {
                       }
                     },
                   ),
-                  Align(alignment: Alignment.center, child: qty(marketData)),
+                  Align(
+                      alignment: Alignment.center,
+                      child: qty(marketData, isAlgo: isAlgo)),
                   if (isAlgo == true)
                     Align(
                         alignment: Alignment.center,
@@ -363,7 +365,7 @@ class _WatchlistBuilderState extends State<WatchlistBuilder> {
     }
   }
 
-  Widget qty(MarketData marketData, {bool isAlgo = true}) {
+  Widget qty(MarketData marketData, {bool isAlgo = false}) {
     return Padding(
       padding: const EdgeInsets.only(top: 25, bottom: 25),
       child: Column(
